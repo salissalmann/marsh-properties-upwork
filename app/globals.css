@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#carousel {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+.carousel-section1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  background-image: url("/cover1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: fadein .5s ease forwards, slideup2 .7s linear infinite alternate both;
+  -moz-animation: fadein .5s ease forwards, slideup2 .7s linear infinite alternate both;
+  -ms-animation: fadein .5s ease forwards, slideup2 .7s linear infinite alternate both;
+  -o-animation: fadein .5s ease forwards, slideup2 .7s linear infinite alternate both;
+  animation: fadein .5s ease forwards, slideup2 .7s linear infinite alternate both;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-inner {
+  width: 70%;
+  text-align: center;
+  padding: 3rem;
+  padding-top: 2rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #252636;
+  border: 2px solid #F0BD0F;
+}
+

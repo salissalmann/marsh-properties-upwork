@@ -1,0 +1,30 @@
+{
+  "name": "marsh-real-estate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.0",
+    "antd": "^5.14.1",
+    "framer-motion": "^11.0.5",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-responsive": "^9.0.2",
+    "react-youtube": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
