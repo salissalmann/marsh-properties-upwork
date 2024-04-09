@@ -79,6 +79,11 @@ export default function Navigation() {
                                                 router.push('/gallery')                                                
                                              }}
                                         >Gallery</a>
+                                        <a className="mr-10 text-white cursor-pointer hover:text-primary text-sm"
+                                            onClick={() => { 
+                                                router.push('/projects')                                                
+                                             }}
+                                        >Projects</a>
                                         <a className="mr-10 text-white cursor-pointer hover:text-primary text-sm" onClick={
                                             () => {
                                                 router.push('/company')
@@ -155,6 +160,14 @@ export default function Navigation() {
                                                     router.push('/gallery')
                                                  }}
                                             >Gallery</div>
+                                        </div>
+                                        <div className='flex flex-col p-3 items-center'>
+                                            <div className={`text-black font-oxygen font-bold border
+                                        shadow w-full text-center p-2  border-primary ${inter.className}`}
+                                                onClick={() => { 
+                                                    router.push('/projects')
+                                                 }}
+                                            >Projects</div>
                                         </div>
                                         <div className='flex flex-col p-3 items-center'>
                                             <div className={`text-black font-oxygen font-bold border

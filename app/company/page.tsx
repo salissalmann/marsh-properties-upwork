@@ -652,7 +652,7 @@ const About1 = () => {
                             </div>
                         </section>
 
-                        <section className="bg-white dark:bg-black rounded-3xl border border-gray-200 dark:border-primary">
+                        <section className="bg-white dark:bg-black rounded-3xl border border-gray-400 dark:border-primary">
                             <div className="container px-6 py-10 mx-auto">
                                 <div className="xl:flex xl:items-center xL:-mx-4">
                                     <div className="xl:w-1/2 xl:mx-4">
@@ -671,17 +671,204 @@ const About1 = () => {
 
                                             <p className="mt-2 text-gray-500 capitalize dark:text-gray-300"> CEO </p>
                                         </div>
+                                    </div>
 
-                                        <div>
-                                            <img className="object-cover rounded-xl aspect-square" src="/talha.jpeg" alt="" />
 
-                                            <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Muhammad Talha </h1>
+                                </div>
 
-                                            <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">Media Manager</p>
+                            </div>
+
+                            <div className="bg-black min-h-[75%] py-12 flex items-center justify-center p-10">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[100px]">
+
+                                    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                                        <div className="p-1 bg-blue-400">
+                                        </div>
+                                        <div className="p-8">
+                                            <h2 className="text-3xl font-bold text-white mb-4">Sales Manager</h2>
+                                            <p className="text-white mb-6">Drives real estate sales, leads team, strategizes growth.</p>
+                                            <ul className="text-sm text-white mb-6">
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Team Leadership
+                                                </li>
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Client Acquisition
+                                                </li>
+                                                <li className="flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Market Analysis
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                                        <div className="p-1 bg-green-400">
+                                        </div>
+                                        <div className="p-8">
+                                            <h2 className="text-3xl font-bold text-white mb-4">Sales executive</h2>
+                                            <p className="text-white mb-6">Cultivates leads, negotiates deals, exceeds sales targets.</p>
+                                            <ul className="text-sm text-white mb-6">
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Prospecting
+                                                </li>
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Client Relations
+                                                </li>
+                                                <li className="flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Closing Transactions
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                                        <div className="p-1 bg-purple-400">
+                                        </div>
+                                        <div className="p-8">
+                                            <h2 className="text-3xl font-bold text-white mb-4">Team lead</h2>
+                                            <p className="text-white mb-6">Guides, motivates, ensures performance, fosters team cohesion.</p>
+                                            <ul className="text-sm text-white mb-6">
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Coaching
+                                                </li>
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http/www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Goal Setting
+                                                </li>
+                                                <li className="flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Resolving Conflicts
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
+
+                            <div className="bg-black min-h-[75%] py-12 flex items-center justify-center p-10">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[100px]">
+
+                                    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                                        <div className="p-1 bg-rose-400">
+                                        </div>
+                                        <div className="p-8">
+                                            <h2 className="text-3xl font-bold text-white mb-4">HR</h2>
+                                            <p className="text-white mb-6">Manages personnel, facilitates training, ensures compliance with regulations. </p>
+                                            <ul className="text-sm text-white mb-6">
+                                                <li className="mb-2 flex items-center text-white">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Recruitment
+                                                </li>
+                                                <li className="mb-2 flex items-center text-white">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Employee Relations
+                                                </li>
+                                                <li className="flex items-center text-white">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Policy Development
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                                        <div className="p-1 bg-yellow-400">
+                                        </div>
+                                        <div className="p-8">
+                                            <h2 className="text-3xl font-bold text-white mb-4">Branch manager</h2>
+                                            <p className="text-white mb-6">Oversees operations, drives revenue, ensures customer satisfaction. </p>
+                                            <ul className="text-sm text-white mb-6">
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Staff management
+                                                </li>
+                                                <li className="mb-2 flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Budgeting
+                                                </li>
+                                                <li className="flex items-center">
+                                                    <svg className="w-4 h-4 mr-2 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                            d="M5 13l4 4L19 7"></path>
+                                                    </svg>
+                                                    Business Development
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>s
+
+                                </div>
+                            </div>
+
                         </section>
                     </div>
                 </div>

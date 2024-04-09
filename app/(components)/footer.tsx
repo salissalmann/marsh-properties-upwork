@@ -21,10 +21,13 @@ export default function footer() {
                         <div className="w-16 mb-4 border-b-2 border-gray-300"></div>
                         <ul>
                             <li className="mb-4">
-                                <a href="#" className="inline-block text-sm font-normal text-white">Home</a>
+                                <a href="/" className="inline-block text-sm font-normal text-white">Home</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="inline-block text-sm font-normal text-white">Company</a>
+                                <a href="/company" className="inline-block text-sm font-normal text-white">Company</a>
+                            </li>
+                            <li className="mb-4">
+                                <a href="/projects" className="inline-block text-sm font-normal text-white">Projects</a>
                             </li>
                             <li className="mb-4">
                                 <a href="#" className="inline-block text-sm font-normal text-white">Portfolio</a>
@@ -116,7 +119,7 @@ export default function footer() {
                     </div>
                 </div>
                 <div className="pt-4 text-center text-sm text-primary">
-                    <span>© Copyright 2022 . All Rights Reserved</span>
+                    <span>© Copyright 2024 . All Rights Reserved</span>
                 </div>
             </div>
         </div>
