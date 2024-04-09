@@ -97,11 +97,11 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:flex-1 px-4">
+                    <div className="md:flex-1 px-4  z-100">
                         <h2 className="mb-2 leading-tight tracking-tight font-boldtext-2xl md:text-3xl text-white font-bold">Park View City</h2>
                         <p className="text-white text-sm">By <a className="text-indigo-600 hover:underline">Marsh Properties</a></p>
 
-                        <p className="text-white mt-4">Park View City is a meticulously planned residential community situated in the heart of Islamabad, Pakistan. Boasting lush green landscapes and serene surroundings, it offers a harmonious blend of modern living and natural beauty. With top-notch amenities including parks, schools, hospitals, and commercial areas, Park View City provides a comfortable lifestyle for its residents. Its strategic location, coupled with stringent security measures, makes it an ideal choice for families seeking tranquility and convenience amidst urban life.</p>
+                        <p className="text-white mt-4  z-100">Park View City is a meticulously planned residential community situated in the heart of Islamabad, Pakistan. Boasting lush green landscapes and serene surroundings, it offers a harmonious blend of modern living and natural beauty. With top-notch amenities including parks, schools, hospitals, and commercial areas, Park View City provides a comfortable lifestyle for its residents. Its strategic location, coupled with stringent security measures, makes it an ideal choice for families seeking tranquility and convenience amidst urban life.</p>
                     </div>
                 </div>
             </div>
@@ -181,20 +181,20 @@ export default function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:flex-1 px-4">
+                    <div className="md:flex-1 px-4 z-100">
                         <h2 className="mb-2 leading-tight tracking-tight font-boldtext-2xl md:text-3xl text-white font-bold">Blue World City</h2>
                         <p className="text-white text-sm">By <a className="text-indigo-600 hover:underline">Marsh Properties</a></p>
 
-                        <p className="text-white mt-4">Blue World City is an ambitious real estate development project located near Islamabad, Pakistan. It promises to redefine modern living by offering a holistic lifestyle experience amidst serene surroundings. With an array of residential, commercial, and recreational facilities, Blue World City aims to create a vibrant and sustainable community. Its strategic location, coupled with world-class amenities and meticulous urban planning, makes it an ideal choice for individuals and families seeking a harmonious blend of comfort, convenience, and tranquility in their daily lives.</p>
+                        <p className="text-white mt-4 z-10">Blue World City is an ambitious real estate development project located near Islamabad, Pakistan. It promises to redefine modern living by offering a holistic lifestyle experience amidst serene surroundings. With an array of residential, commercial, and recreational facilities, Blue World City aims to create a vibrant and sustainable community. Its strategic location, coupled with world-class amenities and meticulous urban planning, makes it an ideal choice for individuals and families seeking a harmonious blend of comfort, convenience, and tranquility in their daily lives.</p>
                     </div>
                 </div>
             </div>
 
-            <section className='bg-black -mt-[16%]'>
-                <div className="py-16">
+            <section className='bg-black md:-mt-[16%] md:h-full h-[1450px]'>
+                <div className="md:py-16 py-[10rem]">
                     <div className="mx-auto px-6 max-w-7xl text-gray-500">
                         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-[8%]">
-                            <div className="relative group overflow-hidden p-8 rounded-xl border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                            <div className="relative group p-8 rounded-xl border dark:border-gray-800 dark:bg-gray-900">
                                 <div aria-hidden="true" className="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10"></div>
                                 <div className="relative">
                                     <div className="border border-blue-500/10 flex relative *:relative *:size-11 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
@@ -218,7 +218,7 @@ export default function page() {
 
                                 </div>
                             </div>
-                            <div className="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                            <div className="relative group p-8 rounded-xl border dark:border-gray-800 dark:bg-gray-900">
                                 <div aria-hidden="true" className="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-green-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10"></div>
                                 <div className="relative">
                                     <div className="border border-green-500/10 flex relative *:relative *:size-11 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-green-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
@@ -243,7 +243,7 @@ export default function page() {
 
                                 </div>
                             </div>
-                            <div className="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                            <div className="relative group p-8 rounded-xl border dark:border-gray-800 dark:bg-gray-900">
                                 <div aria-hidden="true" className="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-red-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10"></div>
                                 <div className="relative">
                                     <div className="border border-red-500/10 flex relative *:relative *:size-11 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-red-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
