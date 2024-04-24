@@ -30,7 +30,7 @@ export default function Home() {
       <Navigation />
 
       <section className={`shadow-sm font-poppins dark:bg-black pt-12 lg:pt-0 ${inter.className}`}>
-        <div className="relative overflow-hidden bg-white dark:bg-black">
+        <div className="relative overflow-hidden bg-black">
           <div className="mx-auto max-w-7xl">
             <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:full lg:pb-28 xl:pb-32">
               <div className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -40,11 +40,11 @@ export default function Home() {
                     Marsh Properties
                   </span>
                   <h2
-                    className="mt-6 text-4xl font-bold leading-10 tracking-tight text-gray-800 dark:text-primary md:text-6xl">
+                    className="mt-6 text-4xl font-bold leading-10 tracking-tight text-primary md:text-6xl">
                     <span className="block">Welcome to Marsh Properties</span>
                   </h2>
                   <p
-                    className="mt-6 tracking-wide text-gray-600 dark:text-gray-100 font-light sm:mt-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5">
+                    className="mt-6 tracking-wide text-gray-100 dark:text-gray-100 font-light sm:mt-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5">
                     Marsh Properties is an emerging force in the Real Estate sector in Pakistan. As authorized Sales partners for numerous prestigious residential and commercial projects across the country, we facilitate transactions totaling over 20 billion annually.
                   </p>
                   <div className="justify-center mt-6 lg:justify-start sm:flex">
@@ -83,10 +83,10 @@ export default function Home() {
           <div className="flex flex-wrap ">
             <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
               <div className="relative lg:max-w-md">
-                <img src="/image.jpeg" alt="aboutimage"
+                <img src="/nida.jpeg" alt="aboutimage"
                   className="relative z-10 object-cover w-full rounded h-96" />
                 <div
-                  className="absolute bottom-0 right-0 z-10 p-8 bg-white border-2 border-blue-500 rounded shadow dark:border-primary lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-primary text-sm">
+                  className="absolute bottom-0 right-0 z-10 p-8 bg-white border-2 border-blue-500 rounded shadow dark:border-primary lg:-mb-12 lg:-mr-11 sm:p-8 dark:text-primary text-sm">
                   <p className="text-md font-semibold md:w-72 text-gray-700 dark:text-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                       className="absolute top-0 left-0 w-16 h-16 text-primary opacity-10"
@@ -95,7 +95,7 @@ export default function Home() {
                         d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
                       </path>
                     </svg>
-                    Successfully Providing business solutions from 8 years
+                    Successfully Providing business solutions from eight years
                   </p>
                 </div>
               </div>
