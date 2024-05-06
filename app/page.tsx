@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <>
-{/*       <Navigation />
+      <Navigation />
 
       <section className={`shadow-sm font-poppins dark:bg-black pt-12 lg:pt-0 ${inter.className}`}>
         <div className="relative overflow-hidden bg-black">
@@ -325,7 +325,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer /> */}
+      <Footer />
 
     </>
   );
